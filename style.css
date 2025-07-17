@@ -15,7 +15,7 @@ body{
     height: 50px;
     color: white; 
     justify-content: space-between;
-    
+    border-bottom: 1px solid white;
 }
 
 
