@@ -24,12 +24,11 @@ body{
 table {
     border-collapse: collapse;
     margin-top: 60px;
-    width: 100%;
 }
 
 th,
 td {
-    border: 1px solid #000000;
+    border: 1px solid;
     padding: 8px;
 }
 input{
@@ -41,7 +40,7 @@ input{
     color: white;
 }
 .numOfCourse {
-    border: 1px solid rgb(0, 0, 0) ;
+    border: 1px solid;
     padding: 5px;
     margin-left: 30%;
     width: 20%;
@@ -94,3 +93,70 @@ footer{
 }
 
 
+@media (min-width:720px){
+    body{
+        background-color: #000000;
+        color: white;
+    }
+    .navi{
+        height: 90px;
+        background-color: black;
+    }
+    .navi h1{
+        line-height: 90px;
+        font-size: 60px;
+    }
+    label{
+        margin-top: 10%;
+    }
+    .stylishCol{
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        background-clip: text;
+        color: transparent;
+        font-size: 60px;
+    }
+    .jusify{
+        justify-content: space-between;
+
+    }
+    input{
+        height: 67px;
+        font-size: 30px;
+    }
+    .numOfCourse {
+        border: 1px solid rgb(0, 0, 0) ;
+        padding: 25px;
+        margin-top:40px;
+        margin-left: 24%;
+        width: 35%;
+        height: 100px;
+        text-align:center;
+        background-color: black;
+        color: white;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+    button{
+        padding: 16px;
+        font-size: 20px;
+        margin-top:0px;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    
+    table{
+        margin: 20px;
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        background-clip: text;
+        color: transparent;
+    }
+    #cummulative{
+        margin-top: 30px;
+        font-size: 45px;
+        text-align: center;
+    }
+}
