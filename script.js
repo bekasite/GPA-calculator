@@ -56,8 +56,11 @@ $(document).ready(function () {
         for (i = 0; i < nums; i++) {
             let score = parseFloat(document.getElementsByClassName("score")[i].value);
             let letGrade = document.getElementsByClassName("letGrade")[i];
-            if (score >= 85) {
+            if(score>=90){
                 letGrade.textContent = "A+"
+                gpa = 4;
+            }else if (score >= 85) {
+                letGrade.textContent = "A"
                 gpa = 4;
             } else if (score >= 80) {
                 letGrade.textContent = "A-"
