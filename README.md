@@ -5,7 +5,7 @@ A dynamic GPA calculator tailored for **Addis Ababa University** students, with 
 [![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge&logo=vercel)](https://bt-gpa.netlify.app)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 
-![Screenshot]((https://github.com/bekasite/GPA-calculator/blob/main/Screenshot%202025-07-17%20100953.jpg)) <!-- Replace with actual screenshot URL -->
+![Screenshot]((Screenshot%202025-07-17%20100953.jpg)) <!-- Replace with actual screenshot URL -->
 
 ## ✨ Features
 | Feature | Description |
