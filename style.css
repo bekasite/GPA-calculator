@@ -37,14 +37,11 @@ p{
     font-size: 25px;
     color: blue;
 }
-div i{
-    float: right;
-    margin-top: 7px;
-    padding-left: 20px;
-}
+
 
 .container-fluid{
     display:inline-flex;
+    width: 100%;
     background:linear-gradient(to right, blue, lightblue);
     height: 37px;
     color: white;
@@ -53,4 +50,8 @@ div i{
     text-align: center;
     font-size: 23px;
     padding-left: 40px;
+}
+.container-fluid i{
+    float: right;
+    margin-top: 7px;
 }
